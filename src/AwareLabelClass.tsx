@@ -8,10 +8,10 @@ export interface IAwareLabelProps {
 
 export default class AwareLabel extends React.Component<IAwareLabelProps> {
   public render() {
-    // const labelColour = this.props.color
+    const {color, size} = this.props
     return (
       <React.Fragment>
-        <Label size={this.props.size} color={this.props.color} >I am a {this.props.size}, {this.props.color} label</Label>
+        <Label size={size} color={color} >I am a {size}, {color} label</Label>
       </React.Fragment>
     );
   }

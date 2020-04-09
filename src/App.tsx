@@ -8,7 +8,7 @@ function App() {
     <React.Fragment>
       <AwareLabel color='purple' size='big' ></AwareLabel>
       <AwareLabel color='green' size='massive' ></AwareLabel>
-      <AwareLabel color='blue' size='tiny' ></AwareLabel>
+      <AwareLabel color='black' size='big' ></AwareLabel>
       <AwareLabel color='red' size='medium' ></AwareLabel>
     </React.Fragment>
   );
