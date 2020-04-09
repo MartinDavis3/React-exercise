@@ -1,25 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AwareLabel from './AwareLabelClass'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <AwareLabel color='purple' size='big' ></AwareLabel>
+      <AwareLabel color='green' size='massive' ></AwareLabel>
+      <AwareLabel color='blue' size='tiny' ></AwareLabel>
+      <AwareLabel color='red' size='medium' ></AwareLabel>
+    </React.Fragment>
   );
 }
 

@@ -1,3 +1,7 @@
+An exercise to create a react component class which passes props.
+The AwareLabel class takes its size and color properties and labels
+itself "I am a 'size', 'color' label".
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
