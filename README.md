@@ -1,6 +1,12 @@
+## Exercises to Practice using React
+
 An exercise to create a react component class which passes props.
 The AwareLabel class takes its size and color properties and labels
 itself "I am a 'size', 'color' label".
+
+Added a modal and manipulated layout of a button and an icon..
+
+---------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
